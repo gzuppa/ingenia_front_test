@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
 /*NAVIGATION BAR SECTION*/
 
 .navbar{
-   background-color: gray;
+   background-color: rgb(168, 167, 167);
 }
 
 .logo {
@@ -19,7 +20,40 @@
     background-size: cover;
     margin-left: -165px;
 }
+.coverMexico h2,
+.coverWashington h2 {
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 250px;
+    color: #ffffff;
+    font-family: 'Roboto-Light', sans-serif;
+}
 .coverWashington {
     background-size: cover;
     margin-left: 100px;
+    width: 10px;
+}
+.imgwsh{
+    width: 737px;
+    height: 480px;
+}
+.cardMexico{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 185px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cardWashington{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 220px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-title,
+.card-subtitle{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    color: orange;
 }
