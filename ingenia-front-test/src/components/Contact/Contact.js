@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row, Container, Card } from 'react-bootstrap'
+import { Col, Row, Container } from 'react-bootstrap'
 import '../components.css'
 
 class Contact extends React.Component {

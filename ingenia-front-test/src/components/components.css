@@ -70,3 +70,17 @@
     text-align: center;
 }
 
+/*FORM SECTION*/
+.formContainer{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formrow{
+    margin-left: 360px !important;
+}
+
+.formButton{
+    background-color: rgb(255, 123, 0) !important;
+    border-color: rgb(255, 123, 0) !important;
+    margin-left: 785px !important
+}
