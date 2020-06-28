@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardColumns, Image, Container} from 'react-bootstrap'
+import { Card, CardColumns, Image } from 'react-bootstrap'
 import '../components.css'
 import Layout from '../../assets/Layout'
 

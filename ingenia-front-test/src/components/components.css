@@ -159,3 +159,56 @@
     margin-top: -44px;
     margin-left: 130px;
 }
+
+/*FOOTER SECTION*/
+.footerVenues{
+    background-color: rgb(224, 223, 223);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    font-size: 12px !important;
+}
+
+.footerCard{
+    background-color: rgb(224, 223, 223) !important;
+    border: 0 !important;
+    text-align: left !important;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+}
+
+.copyright{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.footerCardSubtitle{
+    text-align: left !important;
+    margin-left: 40px !important;
+    color: black !important;
+}
+
+.country{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -22px;
+}
+
+.breadcrumb{
+    background-color: rgb(224, 223, 223) !important;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.breadterms{
+    margin-left: 119px;
+}
+
+.social{
+    margin-left: 300px;
+}
+
+.socialmedia{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}

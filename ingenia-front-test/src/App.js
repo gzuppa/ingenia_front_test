@@ -5,6 +5,7 @@ import Contact from '../src/components/Contact/Contact'
 import FormComponent from '../src/components/Form/FormComponent';
 import Visit from '../src/components/Visit/Visit';
 import Places from '../src/components/Places/Places';
+import Footer from '../src/components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <FormComponent/>
         <Visit/>
         <Places/>
+        <Footer/>
     </div>
   );
 }

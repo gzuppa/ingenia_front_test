@@ -17,10 +17,20 @@ const placesImages = {
     blue: require('./places/blueicon.png')
 }
 
+const footerImages = {
+    usa: require('./footer/usaicon.png'),
+    mexico: require('./footer/mexicoicon.png'),
+    twitter: require('./footer/twitter.png'),
+    facebook: require('./footer/facebook.png'),
+    linkedin: require('./footer/linkedin.png'),
+    youtube: require('./footer/youtube.png'),
+}
+
 export default {
     navigationImgs: navigationImages, 
     coverImgs: coverImages,
     formImgs: formImages,
-    placesImgs: placesImages
+    placesImgs: placesImages,
+    footerImgs: footerImages
 }
   
