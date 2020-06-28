@@ -1,5 +1,6 @@
 import React from 'react'
-import {Container, Form, Col, Button} from 'react-bootstrap'
+import {Container, Form, Col, Button, Image} from 'react-bootstrap'
+import Layout from '../../assets/Layout'
 import '../components.css'
 
 class FormComponent extends React.Component {
@@ -8,6 +9,7 @@ class FormComponent extends React.Component {
         <Container style={{marginTop:"40px"}}>
           <Form className="formContainer">
             <Form.Row className="formrow">
+            <Image className="formBullet" src={Layout.formImgs.one}></Image>
              <Form.Group as={Col} sm={4}>
               <Form.Control type="text" placeholder="Name" />
             </Form.Group>
@@ -18,6 +20,7 @@ class FormComponent extends React.Component {
             </Form.Row>
 
             <Form.Row className="formrow">
+            <Image className="formBullet" src={Layout.formImgs.two}></Image>
              <Form.Group as={Col} sm={4} >
               <Form.Control type="email" placeholder="Email" />
              </Form.Group>
@@ -28,6 +31,7 @@ class FormComponent extends React.Component {
             </Form.Row>
              
              <Form.Row className="formrow">
+             <Image className="formBullet" src={Layout.formImgs.three}></Image>
              <Form.Group as={Col} sm={8}>
               <Form.Label>Tell us about your challenge or opportunity</Form.Label>
               <Form.Control as="textarea" rows="6" />
