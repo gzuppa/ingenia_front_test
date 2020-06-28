@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
 /*NAVIGATION BAR SECTION*/
-
 .navbar{
    background-color: rgb(168, 167, 167);
 }
@@ -55,5 +54,19 @@
 }
 .card-text{
     text-align: center;
-    color: orange;
+    color: rgb(255, 123, 0);
 }
+
+/*CONTACT SECTION*/
+.contact{
+    margin-top: 136px;
+    background-color: rgb(255, 123, 0);
+    font-family: 'Montserrat', sans-serif;
+    height: 200px;
+}
+.contact h2, h5{
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
