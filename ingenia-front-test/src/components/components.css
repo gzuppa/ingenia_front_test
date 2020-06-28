@@ -103,3 +103,59 @@
     color: black !important;
     border-color: black !important;
 }
+
+/*PLACES SECTION*/
+.noborder{
+    border: 0 !important;
+}
+
+.placesContainer{
+    width: 700px;
+    margin-left: 510px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.placesTitleRight{
+    text-align: right !important;
+    font-size: 12px !important;
+    color: rgb(116, 114, 114) !important;
+}
+
+.placesSubtitleRight{
+    text-align: right !important;
+}
+
+.blueicon{
+    width: 15px;
+    height: 15px;
+    margin-top: -44px;
+    margin-left: 40px;
+}
+
+.placesTextRight{
+    color: gray !important;
+    text-align: right !important;
+}
+
+.placesTitleLeft{
+    text-align: left !important;
+    font-size: 12px !important;
+    color: rgb(116, 114, 114) !important;
+}
+
+.placesSubtitleLeft{
+    text-align: left !important;
+}
+
+.placesTextLeft{
+    color: gray !important;
+    text-align: left !important;
+}
+
+.blueiconLeft{
+    width: 15px;
+    height: 15px;
+    margin-top: -44px;
+    margin-left: 130px;
+}
