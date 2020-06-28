@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*NAVIGATION BAR SECTION*/
+
+.navbar{
+   background-color: gray;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.menu {
+    margin-right: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*COVER SECTION*/
+.coverMexico {
+    background-size: cover;
+    margin-left: -165px;
+}
+.coverWashington {
+    background-size: cover;
+    margin-left: 100px;
+}
