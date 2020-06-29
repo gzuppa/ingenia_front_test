@@ -11,7 +11,7 @@ class Contact extends React.Component {
                 <Col>
                 <Col className="copyright">©2014 Ingenia Group</Col>
                 <Row>
-                <CardColumns>
+                <CardColumns className="cols">
                     <Card className="footerCard">
                         <Card.Body>
                             <Image className="country" src={Layout.footerImgs.usa}></Image>
