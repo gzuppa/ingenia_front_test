@@ -14,12 +14,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 1024px) {
-    .navbar{
-        margin-top: 1px;
-    }
-}
-
 /*COVER SECTION*/
 .coverMexico {
     background-size: cover;
@@ -63,7 +57,7 @@
     color: rgb(255, 123, 0);
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .imgwsh {
         width: 529px;
     }
@@ -78,6 +72,28 @@
     }
     .coverWashington h2{
         margin-left: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .imgwsh {
+        width: 401px;
+    }
+    .imgmxc {
+        width: 493px;
+        height: 480px;
+    }
+    .cardMexico{
+        margin-left: 170px;
+    }
+    .cardWashington{
+        margin-left: 60px;
+    }
+    .coverMexico h2{
+        margin-left: 193px;
+    }
+    .coverWashington h2{
+        margin-left: 75px;
     }
 }
 
@@ -115,12 +131,17 @@
     height: 20px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .formContainer {
         margin-left: -105px;
     }
 }
 
+@media (max-width: 768px) {
+    .formContainer {
+        margin-left: -190px;
+    }
+}
 /*VISIT SECTION*/
 .visit{
     font-family: 'Montserrat', sans-serif;
@@ -189,11 +210,18 @@
     margin-left: 130px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .placesContainer {
         margin-left: 300px;
     }
 }
+
+@media (max-width: 768px) {
+    .placesContainer {
+        margin-left: 160px;
+    }
+}
+
 
 /*FOOTER SECTION*/
 .footerVenues{
@@ -248,7 +276,7 @@
     margin-left: 10px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .breadcrumb {
         margin-left: 80px;
     }
@@ -260,5 +288,20 @@
     }
     .copyright{
         margin-left: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .breadcrumb {
+        margin-left: 100px;
+    }
+    .social {
+        margin-left: 140px;
+    }
+    .cols{
+        margin-left: -110px;
+    }
+    .copyright{
+        margin-left: -20px;
     }
 }

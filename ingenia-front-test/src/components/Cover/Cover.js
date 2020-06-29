@@ -10,7 +10,7 @@ class Cover extends React.Component {
         <Container>
         <Row>
           <Col className="coverMexico">
-            <img src={Layout.coverImgs.coverMexico} alt='mexico' /> 
+            <img className="imgmxc" src={Layout.coverImgs.coverMexico} alt='mexico' /> 
             <h2>Mexico City</h2>
             <Card className="cardMexico" style={{ width: '18rem' }}>
                 <Card.Body>
