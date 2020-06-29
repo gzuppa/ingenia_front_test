@@ -3,11 +3,66 @@ import {Container, Form, Col, Button, Image} from 'react-bootstrap'
 import Layout from '../../assets/Layout'
 import '../components.css'
 
+const validateForm = (errors) => {
+  let valid = true;
+  Object.values(errors).forEach(
+    (val) => val.length > 0 && (valid = false)
+  );
+  return valid;
+}
+
 class FormComponent extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      Name: null,
+      errors: {
+        Name: ''
+      }
+    };
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    fetch('http://ingenia.com/snippets/test/contact.php', {
+      method: 'POST',
+      mimeType: 'multipart/form-data',
+      body: data,
+    });
+    if(validateForm(this.state.errors)) {
+      console.info('Formulario válido')
+    }else{
+      console.error('Formulario inválido')
+    }
+  }
+
+
+  handleChange = (event) => {
+    event.preventDefault();
+    const { name, value } = event.target;
+    let errors = this.state.errors;
+
+    switch (name) {
+      case 'Name': 
+        errors.Name = 
+          value.length < 5
+            ? 'Este campo no puede quedar vacio!'
+            : '';
+        break;
+      default:
+        break;
+    }
+
+    this.setState({errors, [name]: value});
+  }
+
+
   render () {
     return (
         <Container style={{marginTop:"40px"}}>
-          <Form className="formContainer">
+          <Form className="formContainer" onSubmit={this.handleSubmit}>
             <Form.Row className="formrow">
             <Image className="formBullet" src={Layout.formImgs.one}></Image>
              <Form.Group as={Col} sm={4}>

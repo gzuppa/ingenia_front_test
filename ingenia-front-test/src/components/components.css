@@ -57,7 +57,7 @@
     color: rgb(255, 123, 0);
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .imgwsh {
         width: 529px;
     }
@@ -131,7 +131,7 @@
     height: 20px;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .formContainer {
         margin-left: -105px;
     }
@@ -210,7 +210,7 @@
     margin-left: 130px;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .placesContainer {
         margin-left: 300px;
     }
@@ -276,7 +276,7 @@
     margin-left: 10px;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .breadcrumb {
         margin-left: 80px;
     }
